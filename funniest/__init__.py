@@ -1,2 +1,1 @@
-def joke():
-    return "no u nigga"
+from .text import joke
