@@ -1,2 +1,5 @@
+from markdown import markdown
+
+
 def joke():
-    return "no u nigga"
+    return markdown("no u nigga")
