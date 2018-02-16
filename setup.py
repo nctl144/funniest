@@ -23,6 +23,10 @@ setup(name='funniest',
     install_requires=[
         'markdown',
     ],
+    entry_points={
+        'console_scripts': ['funniest-joke=funniest.command_line:main']
+    },
+    scripts=['bin/funniest-joke'],
     test_suite='nose.collector',
     tests_require=['nose'],
     packages=['funniest'],
